@@ -44,6 +44,7 @@ Window {
             onClicked: {
                 simpleSyntaxHighlighter.textDocument = null;
                 simpleSyntaxHighlighter.textDocument = textEdit.textDocument;
+                simpleSyntaxHighlighter.rehighlight();
             }
         }
     }
